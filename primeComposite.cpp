@@ -16,19 +16,11 @@ void primeFun(int n){
 		}
 	}
 	system("CLS");	//to clear screen 
-	cout<<0<<" : "<<"nor prime nor composite\n";
-	cout<<0<<" : "<<"nor prime nor composite\n";
 	for(int i=2;i<=n;i++){
-
-		cout<<i<<" : ";
 		if(isPrime[i]==true){
-			cout<<"prime"<<endl;
-		}else{
-			cout<<"composite"<<endl;
-		}	
-//		cout<<i<<" : "<<isPrime[i]<<"\n"; //uncomment for output
+			cout<<i<<"\t";	
+		}
 	}
-
 }
 
 int main(){
