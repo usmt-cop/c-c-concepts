@@ -16,7 +16,8 @@ void primeFun(int n){
 		}
 	}
 	int primeCount=0,comCount=0;
-	system("CLS");	//to clear screen 
+	system("CLS");	//to clear screen
+	cout<<"<------------------------Prime Numbers------------------------>\n";
 	for(int i=2;i<=n;i++){
 		if(isPrime[i]==true){
 		primeCount++;
@@ -26,11 +27,13 @@ void primeFun(int n){
 //		}
 	}
 //	cout<<comCount;
-	cout<<primeCount;
+	cout<<"Total Prime numbers are "<<primeCount;
 }
 
 int main(){
 	int n;
+	cout<<"<------------------------Prime Numbers------------------------>\n";
+	cout<<"Enter a value";
 	cin >> n;
 	primeFun(n);	//
 	return 0;
